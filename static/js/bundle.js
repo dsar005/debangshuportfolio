@@ -43212,7 +43212,7 @@ function BottomSection() {
     setLoading(true);
     setError('');
     try {
-      await axios__WEBPACK_IMPORTED_MODULE_12__["default"].post(`${API}/contact`, formData);
+      await axios__WEBPACK_IMPORTED_MODULE_12__["default"].post("https://api.web3forms.com/submit", Object.assign({}, formData, {access_key: "99e9cba5-86b2-42e2-b4ea-974d55200464", subject: "Portfolio Contact from " + formData.name}));
       setSubmitted(true);
       setFormData({
         name: '',
