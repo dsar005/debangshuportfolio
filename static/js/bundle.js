@@ -46936,7 +46936,7 @@ const portfolioData = {
     id: 1,
     company: "ApexPlanet Software Pvt. Ltd.",
     role: "Virtual Web Development Intern",
-    period: "Jun 2025 â€“ Jul 2025",
+    period: "Jun 2025 -- Jul 2025",
     type: "Internship",
     description: "Gained hands-on experience in front-end development building responsive web applications.",
     responsibilities: ["Developed responsive web pages using HTML, CSS, and JavaScript", "Implemented structured UI layouts and interactive components", "Practiced modern web development workflows and debugging techniques", "Gained hands-on experience with front-end development concepts"]
