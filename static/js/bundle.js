@@ -46873,7 +46873,7 @@ const portfolioData = {
       value: "10+"
     }, {
       label: "Year",
-      value: "2025"
+      value: "2026"
     }]
   },
   skills: [{
@@ -46926,7 +46926,7 @@ const portfolioData = {
     id: 4,
     title: "Property Listing Platform",
     description: "A transparent real estate platform where brokers and property owners can upload verified listings to improve trust in property transactions.",
-    tags: ["Web Dev", "HTML", "CSS", "JavaScript"],
+    tags: ["Web Dev", "HTML", "CSS", "JavaScript","Blockchain Technology"],
     category: "Web Development",
     color: "#8B5CF6",
     icon: "Building2",
@@ -46975,14 +46975,14 @@ const portfolioData = {
   }],
   volunteering: [{
     id: 1,
-    event: "URECON BGMI Tournament",
-    subtitle: "Krafton Campus Tour",
-    org: "University of Engineering & Management | UGG",
-    role: "Organizer"
+    event: "Smart India Hackathon 2025",
+    subtitle: "Round 2 Qualifiers ",
+    org: "",
+    role: "Qualifiers"
   }, {
     id: 2,
-    event: "STAN Free Fire Tournament",
-    subtitle: "",
+    event: "URECON BGMI Tournament",
+    subtitle: "Krafton Campus Tour",
     org: "University of Engineering & Management | UGG",
     role: "Organizer"
   }, {
