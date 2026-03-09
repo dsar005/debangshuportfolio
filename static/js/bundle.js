@@ -46947,7 +46947,7 @@ const portfolioData = {
     degree: "B.Tech in Computer Science & Engineering",
     specialization: "IOT, CS & Blockchain Technology",
     location: "Kolkata",
-    period: "2024 â€“ 2028",
+    period: "2024 -- 2028",
     current: true
   }, {
     id: 2,
@@ -46955,7 +46955,7 @@ const portfolioData = {
     degree: "Secondary & Higher Secondary",
     specialization: "",
     location: "Buniadpur",
-    period: "2015 â€“ 2023",
+    period: "2015 -- 2023",
     current: false
   }],
   certifications: [{
@@ -46963,7 +46963,7 @@ const portfolioData = {
     title: "Web Development with HTML, CSS & JavaScript",
     issuer: "ApexPlanet Software Pvt. Ltd.",
     type: "Internship Certificate",
-    period: "Jun 2025 â€“ Jul 2025",
+    period: "Jun 2026 -- Jul 2026",
     icon: "Code2"
   }, {
     id: 2,
