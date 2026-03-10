@@ -46854,14 +46854,14 @@ __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/r
 const portfolioData = {
   personal: {
     name: "Debangshu Sarkar",
-    title: "Freelance Developer & Technical Assistant",
+    title: "Developer & Technical Assistant",
     tagline: "Building responsive web experiences, automation systems & AI-powered concepts.",
     location: "Kolkata, India",
     email: "debangshu.sarkar.work@gmail.com",
     phone: "+91-7074919071",
     linkedin: "https://linkedin.com/in/debangshu-sarkar-b2ab4a317",
     github: "https://github.com/dsar005",
-    summary: "Freelance developer and technical assistant specializing in web development, automation systems, and structured data handling. Experienced in building responsive websites, developing automation prototypes, and designing professional presentations. Skilled in delivering reliable, well-documented solutions for both technical and business needs.",
+    summary: "Developer and technical assistant specializing in web development, automation systems, and structured data handling. Experienced in building responsive websites, developing automation prototypes, and designing professional presentations. Skilled in delivering reliable, well-documented solutions for both technical and business needs.",
     stats: [{
       label: "Projects",
       value: "4+"
