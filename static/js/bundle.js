@@ -42563,7 +42563,7 @@ function AboutSection() {
                   "x-component": "span",
                   "x-id": "AboutSection_63_18",
                   "x-dynamic": "false",
-                  children: "\"Freelance Developer\""
+                  children: "\"Developer\""
                 }, void 0, false, {
                   fileName: _jsxFileName,
                   lineNumber: 63,
