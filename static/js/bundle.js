@@ -43196,6 +43196,7 @@ function BottomSection() {
     experience,
     education,
     certifications,
+    Achievements,
     volunteering,
     personal
   } = _data_mock__WEBPACK_IMPORTED_MODULE_11__.portfolioData;
@@ -44078,6 +44079,69 @@ function BottomSection() {
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 154,
+            columnNumber: 13
+          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("h3", {
+            className: "text-lg font-semibold text-white mb-4",
+            children: "Achievements"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 155,
+            columnNumber: 12
+          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("div", {
+            className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10",
+            children: Achievements.map(a => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("div", {
+              className: "p-5 rounded-xl bg-[#0D1526] border border-white/[0.06] hover:border-[#8B5CF6]/25 transition-all duration-200 group hover:-translate-y-0.5",
+              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("div", {
+                className: "flex items-center gap-2 mb-3",
+                children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                  size: 14,
+                  className: "text-[#8B5CF6]"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 161,
+                  columnNumber: 21
+                }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("span", {
+                  className: "text-[#8B5CF6] text-xs font-mono",
+                  children: "Achievement"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 162,
+                  columnNumber: 21
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 160,
+                columnNumber: 19
+              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("h3", {
+                className: "font-bold text-white text-sm mb-1",
+                children: a.title
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 164,
+                columnNumber: 19
+              }, this), a.subtitle && /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("p", {
+                className: "text-[#64748B] text-xs mb-2",
+                children: a.subtitle
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 165,
+                columnNumber: 34
+              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("p", {
+                className: "text-[#64748B] text-xs",
+                children: a.org
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 166,
+                columnNumber: 19
+              }, this)]
+            }, a.id, true, {
+              fileName: _jsxFileName,
+              lineNumber: 158,
+              columnNumber: 17
+            }, this))
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 156,
             columnNumber: 13
           }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxDEV)("div", {
             className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-4",
@@ -46950,39 +47014,56 @@ const portfolioData = {
   }],
   certifications: [{
     id: 1,
-    title: "Web Development with HTML, CSS & JavaScript",
-    issuer: "ApexPlanet Software Pvt. Ltd.",
-    type: "Internship Certificate",
-    period: "Jun 2026 -- Jul 2026",
-    icon: "Code2"
+    title: "Artificial Intelligence for Cybersecurity",
+    issuer: "LinkedIn Learning",
+    type: "Professional Certificate",
+    skills:"Ai, Cybersecurity, Threat Detection",
+    period: "Apr 2026",
+    icon: "Award"
   }, {
     id: 2,
+    title: "OpenAI API for Python Developers",
+    issuer: "LinkedIn Learning",
+    type: "Professional Certificate",
+    skills:"OpenAI API, Python, AI Development",
+    period: "Dec 2024",
+    icon: "Award"
+  },{
+    id: 3,
     title: "Agile Project Leadership",
     issuer: "LinkedIn Learning",
     type: "Professional Certificate",
+    skills:"Agile Methodologies, Project Management, Team Leadership",
     period: "Dec 2024",
     icon: "Award"
   }],
+  Achievements: [{
+    id: 1,
+    title: "India Inovates 2026 ",
+    subtitle: "Finalist",
+    org: "Municipal Corporation of Delhi and HN",
+    description: "Selected as a finalist in the India Inovates 2026, World's Biggest Youth Innovaation Summit for developing an innovative solution addressing urban challenges, demonstrating creativity and impact potential in a national-level contest."
+  },{
+    id: 2,
+    title: "Smart India Hackathon 2025",
+    subtitle: "Round 2 Qualifiers",
+    org: "Ministry of Education and AICTE",
+    description: "Qualified for the second round of the prestigious Smart India Hackathon 2025, showcasing innovative problem-solving skills and technical expertise in a competitive environment."
+  }],
   volunteering: [{
     id: 1,
-    event: "Smart India Hackathon 2025",
-    subtitle: "Round 2 Qualifiers ",
-    org: "",
-    role: "Qualifiers"
-  }, {
-    id: 2,
     event: "URECON BGMI Tournament",
     subtitle: "Krafton Campus Tour",
     org: "University of Engineering & Management | UGG",
     role: "Organizer"
   }, {
-    id: 3,
+    id: 2,
     event: "HP Omen Campus Quest",
     subtitle: "",
     org: "University of Engineering & Management | UGG",
     role: "Organizer"
   }, {
-    id: 4,
+    id: 3,
     event: "Internshala Student Partner",
     subtitle: "Campus Ambassador Program",
     org: "Internshala",
